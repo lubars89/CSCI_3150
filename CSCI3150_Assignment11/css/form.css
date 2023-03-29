@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* form styling */
+/*try using Georgia font, make a color change, and this assignment should be gtg*/
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+
+label {
+	margin-right: .3em;
+	width: 6.3em;
+	display: inline-block;
+	text-align: right;
+}
+
+#radioLabel1{
+	margin-left: -3.5em;
+}
+
+#radioLabel2{
+	margin-left: -.5em;
+}
+
+#formcol1 li{
+	list-style: none;
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label,
+input:active + label, label[for]:focus, label[for]:active{
+	color: #FFF !important;
+	background-color: #BB3D2F !important;
+}
+
+#formcol1 input.reqfield{
+	background: #FF9;
+}
+
+h1{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+	background-color: lightcyan;
+}
+/* end of form css */
+	
